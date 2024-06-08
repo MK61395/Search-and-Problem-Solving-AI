@@ -9,13 +9,10 @@ This repository contains the implementation of various search algorithms to find
 
 The problem is defined as follows:
 
-- We are given a set of vertices \( V_1, \ldots, V_n \) and possible parent sets for each vertex.
+- We are given a set of vertices ( V_1, .... , V_n ) and possible parent sets for each vertex.
 - Each parent set has an associated cost.
-- Given an ordering \( O \) (a permutation) of the vertices, a parent set of vertex \( V_i \) is consistent with \( O \) if all of the parents come before \( V_i \) in the ordering.
-- The objective is to find an ordering \( O \) that minimizes the total cost of the network:
-  \[
-  \text{mcc}(V_1, O) + \text{mcc}(V_2, O) + \ldots + \text{mcc}(V_n, O)
-  \]
+- Given an ordering (O) (a permutation) of the vertices, a parent set of vertex (V_i) is consistent with (O) if all of the parents come before (V_i) in the ordering.
+- The objective is to find an ordering (O) that minimizes the total cost of the network:
 
 ## Search Algorithms Implemented
 
